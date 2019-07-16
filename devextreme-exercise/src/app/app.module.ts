@@ -3,18 +3,21 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DxButtonModule } from 'devextreme-angular';
+import { DxButtonModule, DxChartModule } from 'devextreme-angular';
 import { DxButtonComponent } from './dx-button/dx-button.component';
+import { BarChartComponent } from './bar-chart/bar-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    DxButtonComponent
+    DxButtonComponent,
+    BarChartComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DxButtonModule
+    DxButtonModule,
+    DxChartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
