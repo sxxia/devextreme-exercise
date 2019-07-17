@@ -1,3 +1,11 @@
-<p>
-  standard-bar-chart works!
-</p>
+<dx-chart
+title="Standard Bar Chart"
+[dataSource]="dataSource">
+  <dxi-series
+    argumentField="day"
+    valueField="oranges"
+    type="bar"
+    name="My orange"
+    color="lightblue">
+  </dxi-series>
+</dx-chart>
