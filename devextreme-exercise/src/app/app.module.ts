@@ -8,6 +8,8 @@ import { DxButtonComponent } from './dx-button/dx-button.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
 import { NewBarChartComponent } from './new-bar-chart/new-bar-chart.component';
 import { StandardBarChartComponent } from './standard-bar-chart/standard-bar-chart.component';
+import { SideBySideBarChartComponent } from './side-by-side-bar-chart/side-by-side-bar-chart.component';
+import { StackedBarChartComponent } from './stacked-bar-chart/stacked-bar-chart.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +17,9 @@ import { StandardBarChartComponent } from './standard-bar-chart/standard-bar-cha
     DxButtonComponent,
     BarChartComponent,
     NewBarChartComponent,
-    StandardBarChartComponent
+    StandardBarChartComponent,
+    SideBySideBarChartComponent,
+    StackedBarChartComponent
   ],
   imports: [
     BrowserModule,
