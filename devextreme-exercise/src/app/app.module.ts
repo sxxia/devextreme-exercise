@@ -10,6 +10,7 @@ import { NewBarChartComponent } from './new-bar-chart/new-bar-chart.component';
 import { StandardBarChartComponent } from './standard-bar-chart/standard-bar-chart.component';
 import { SideBySideBarChartComponent } from './side-by-side-bar-chart/side-by-side-bar-chart.component';
 import { StackedBarChartComponent } from './stacked-bar-chart/stacked-bar-chart.component';
+import { FullStackedBarChartComponent } from './full-stacked-bar-chart/full-stacked-bar-chart.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { StackedBarChartComponent } from './stacked-bar-chart/stacked-bar-chart.
     NewBarChartComponent,
     StandardBarChartComponent,
     SideBySideBarChartComponent,
-    StackedBarChartComponent
+    StackedBarChartComponent,
+    FullStackedBarChartComponent
   ],
   imports: [
     BrowserModule,
