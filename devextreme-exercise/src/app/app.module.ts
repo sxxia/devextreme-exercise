@@ -11,6 +11,7 @@ import { StandardBarChartComponent } from './standard-bar-chart/standard-bar-cha
 import { SideBySideBarChartComponent } from './side-by-side-bar-chart/side-by-side-bar-chart.component';
 import { StackedBarChartComponent } from './stacked-bar-chart/stacked-bar-chart.component';
 import { FullStackedBarChartComponent } from './full-stacked-bar-chart/full-stacked-bar-chart.component';
+import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-by-side-stacked-bar.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FullStackedBarChartComponent } from './full-stacked-bar-chart/full-stac
     StandardBarChartComponent,
     SideBySideBarChartComponent,
     StackedBarChartComponent,
-    FullStackedBarChartComponent
+    FullStackedBarChartComponent,
+    SideBySideStackedBarComponent
   ],
   imports: [
     BrowserModule,
