@@ -15,6 +15,7 @@ import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-b
 import { DrillDownComponent } from './drill-down/drill-down.component';
 import { SideBySideFullStackedBarComponent } from './side-by-side-full-stacked-bar/side-by-side-full-stacked-bar.component';
 import { AutoCalculatedBarWidthChartComponent } from './auto-calculated-bar-width-chart/auto-calculated-bar-width-chart.component';
+import { CustomBarWidthChartComponent } from './custom-bar-width-chart/custom-bar-width-chart.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AutoCalculatedBarWidthChartComponent } from './auto-calculated-bar-widt
     SideBySideStackedBarComponent,
     DrillDownComponent,
     SideBySideFullStackedBarComponent,
-    AutoCalculatedBarWidthChartComponent
+    AutoCalculatedBarWidthChartComponent,
+    CustomBarWidthChartComponent
   ],
   imports: [
     BrowserModule,
