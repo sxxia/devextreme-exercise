@@ -12,6 +12,8 @@ import { SideBySideBarChartComponent } from './side-by-side-bar-chart/side-by-si
 import { StackedBarChartComponent } from './stacked-bar-chart/stacked-bar-chart.component';
 import { FullStackedBarChartComponent } from './full-stacked-bar-chart/full-stacked-bar-chart.component';
 import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-by-side-stacked-bar.component';
+import { DrillDownComponent } from './drill-down/drill-down.component';
+import { SideBySideFullStackedBarComponent } from './side-by-side-full-stacked-bar/side-by-side-full-stacked-bar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,9 @@ import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-b
     SideBySideBarChartComponent,
     StackedBarChartComponent,
     FullStackedBarChartComponent,
-    SideBySideStackedBarComponent
+    SideBySideStackedBarComponent,
+    DrillDownComponent,
+    SideBySideFullStackedBarComponent
   ],
   imports: [
     BrowserModule,
