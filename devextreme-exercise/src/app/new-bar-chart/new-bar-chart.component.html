@@ -1,0 +1,34 @@
+<!-- <dx-chart
+    id="chart"
+    title="World Population by Decade"
+    [dataSource]="dataSource"
+>
+<dxi-series type="bar"></dxi-series>
+    <dxo-legend [visible]="false"></dxo-legend>
+    <dxo-argument-axis [tickInterval]="10">
+        <dxo-label>
+            <dxo-format type="decimal"></dxo-format>
+        </dxo-label>
+    </dxo-argument-axis>
+    <dxi-value-axis [tickInterval]="1000000">
+
+    </dxi-value-axis>
+    <dxo-argument-axis [tickInterval]="10">
+        <dxo-label>
+            <dxo-format type="decimal"></dxo-format>
+        </dxo-label>
+    </dxo-argument-axis>
+</dx-chart> -->
+<dx-chart 
+  [dataSource]="dataSource"
+  title="example">
+  <dxi-series type="bar"></dxi-series>
+  <dxo-legend [visible]="false"></dxo-legend>
+  <dxo-argument-axis [tickInterval]="10">
+    <dxo-label>
+      <dxo-format type="decimal"></dxo-format>
+    </dxo-label>
+  </dxo-argument-axis>
+  <dxi-value-axis [tickInterval]="50">
+  </dxi-value-axis>
+</dx-chart>

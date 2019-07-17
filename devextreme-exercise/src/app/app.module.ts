@@ -6,12 +6,16 @@ import { AppComponent } from './app.component';
 import { DxButtonModule, DxChartModule } from 'devextreme-angular';
 import { DxButtonComponent } from './dx-button/dx-button.component';
 import { BarChartComponent } from './bar-chart/bar-chart.component';
+import { NewBarChartComponent } from './new-bar-chart/new-bar-chart.component';
+import { StandardBarChartComponent } from './standard-bar-chart/standard-bar-chart.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DxButtonComponent,
-    BarChartComponent
+    BarChartComponent,
+    NewBarChartComponent,
+    StandardBarChartComponent
   ],
   imports: [
     BrowserModule,
