@@ -41,7 +41,7 @@ export class StackedBarChartComponent implements OnInit {
   customizeTooltip(arg: any) {
     return {
         text: arg.seriesName + ' years: ' + arg.valueText
-    };
+  };
 }
 
 }
