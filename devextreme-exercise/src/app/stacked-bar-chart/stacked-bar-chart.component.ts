@@ -38,4 +38,10 @@ export class StackedBarChartComponent implements OnInit {
   ngOnInit() {
   }
 
+  customizeTooltip(arg: any) {
+    return {
+        text: arg.seriesName + ' years: ' + arg.valueText
+    };
+}
+
 }
