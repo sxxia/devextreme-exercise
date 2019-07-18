@@ -1,0 +1,21 @@
+<dx-chart
+  [dataSource]="dataSource">
+  <dxo-title text="Daily Temperature in May"></dxo-title>
+  <dxi-series
+    valueField="value"
+    argumentField="day"
+    type="bar"
+  >
+  </dxi-series>
+  <dxi-value-axis [maxValueMargin]="0.01" [visualRange]="{startValue: 40}">
+    <dxi-constant-line [width]="2" [value]="lowAverage" dashStyle="dash">
+      <dxo-label text="Low Average"></dxo-label>
+    </dxi-constant-line>
+    <dxi-constant-line [width]="2" [value]="highAverage" dashStyle="dash">
+      <dxo-label text="High Average"></dxo-label>
+    </dxi-constant-line>
+
+  </dxi-value-axis>
+  <dxo-export [enabled]="true"></dxo-export>
+  <dxo-legend [visible]="false"></dxo-legend>
+</dx-chart>

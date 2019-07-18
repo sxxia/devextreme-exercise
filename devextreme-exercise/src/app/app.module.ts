@@ -16,6 +16,8 @@ import { DrillDownComponent } from './drill-down/drill-down.component';
 import { SideBySideFullStackedBarComponent } from './side-by-side-full-stacked-bar/side-by-side-full-stacked-bar.component';
 import { AutoCalculatedBarWidthChartComponent } from './auto-calculated-bar-width-chart/auto-calculated-bar-width-chart.component';
 import { CustomBarWidthChartComponent } from './custom-bar-width-chart/custom-bar-width-chart.component';
+import { ColorEachBarDifferentlyComponent } from './color-each-bar-differently/color-each-bar-differently.component';
+import { CustomizePointsAndLabelsComponent } from './customize-points-and-labels/customize-points-and-labels.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { CustomBarWidthChartComponent } from './custom-bar-width-chart/custom-ba
     DrillDownComponent,
     SideBySideFullStackedBarComponent,
     AutoCalculatedBarWidthChartComponent,
-    CustomBarWidthChartComponent
+    CustomBarWidthChartComponent,
+    ColorEachBarDifferentlyComponent,
+    CustomizePointsAndLabelsComponent
   ],
   imports: [
     BrowserModule,
