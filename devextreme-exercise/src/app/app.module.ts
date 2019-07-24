@@ -8,6 +8,7 @@ import { SimpleArrayComponent } from './simple-array/simple-array.component';
 import { RecordPagingComponent } from './record-paging/record-paging.component';
 import { ColumnCustomizationComponent } from './column-customization/column-customization.component';
 import { GridSummariesComponent } from './grid-summaries/grid-summaries.component';
+import { GridExportComponent } from './grid-export/grid-export.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { GridSummariesComponent } from './grid-summaries/grid-summaries.componen
     SimpleArrayComponent,
     RecordPagingComponent,
     ColumnCustomizationComponent,
-    GridSummariesComponent
+    GridSummariesComponent,
+    GridExportComponent
   ],
   imports: [
     BrowserModule,
