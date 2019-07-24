@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { DxDataGridModule } from 'devextreme-angular';
 import { SimpleArrayComponent } from './simple-array/simple-array.component';
 import { RecordPagingComponent } from './record-paging/record-paging.component';
+import { ColumnCustomizationComponent } from './column-customization/column-customization.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     SimpleArrayComponent,
-    RecordPagingComponent
+    RecordPagingComponent,
+    ColumnCustomizationComponent
   ],
   imports: [
     BrowserModule,
