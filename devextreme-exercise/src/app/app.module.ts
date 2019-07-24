@@ -5,11 +5,13 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { DxDataGridModule } from 'devextreme-angular';
 import { SimpleArrayComponent } from './simple-array/simple-array.component';
+import { RecordPagingComponent } from './record-paging/record-paging.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SimpleArrayComponent
+    SimpleArrayComponent,
+    RecordPagingComponent
   ],
   imports: [
     BrowserModule,

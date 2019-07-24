@@ -1,0 +1,10 @@
+<dx-data-grid
+  [dataSource]="dataSource"
+  [showBorders]="true">
+  <dxo-paging [pageSize]="10"></dxo-paging>
+  <dxo-pager
+    [showPageSizeSelector]="true"
+    [allowedPageSizes]="[5, 10, 20]"
+    [showInfo]="true">
+  </dxo-pager>
+</dx-data-grid>
