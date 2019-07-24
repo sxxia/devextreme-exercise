@@ -3,17 +3,18 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { DxButtonModule, DxChartModule } from 'devextreme-angular';
+import { DxDataGridModule } from 'devextreme-angular';
+import { SimpleArrayComponent } from './simple-array/simple-array.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    SimpleArrayComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    DxButtonModule,
-    DxChartModule
+    DxDataGridModule
   ],
   providers: [],
   bootstrap: [AppComponent]
