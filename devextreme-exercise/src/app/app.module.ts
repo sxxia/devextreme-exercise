@@ -20,6 +20,8 @@ import { CustomBarWidthComponent } from './custom-bar-width/custom-bar-width.com
 import { ColorEachBarDifferentlyComponent } from './color-each-bar-differently/color-each-bar-differently.component';
 import { CustomizePointsAndLabelsComponent } from './customize-points-and-labels/customize-points-and-labels.component';
 import { ScaleBreaksComponent } from './scale-breaks/scale-breaks.component';
+import { BiDirectionalBarChartComponent } from './bi-directional-bar-chart/bi-directional-bar-chart.component';
+import { CSPSBarChartComponent } from './csps-bar-chart/csps-bar-chart.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +41,9 @@ import { ScaleBreaksComponent } from './scale-breaks/scale-breaks.component';
     CustomBarWidthComponent,
     ColorEachBarDifferentlyComponent,
     CustomizePointsAndLabelsComponent,
-    ScaleBreaksComponent
+    ScaleBreaksComponent,
+    BiDirectionalBarChartComponent,
+    CSPSBarChartComponent
   ],
   imports: [
     BrowserModule,
