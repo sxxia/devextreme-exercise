@@ -17,6 +17,7 @@ import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-b
 import { SideBySideFullStackedBarComponent } from './side-by-side-full-stacked-bar/side-by-side-full-stacked-bar.component';
 import { AutoCalculatedBarWidthComponent } from './auto-calculated-bar-width/auto-calculated-bar-width.component';
 import { CustomBarWidthComponent } from './custom-bar-width/custom-bar-width.component';
+import { ColorEachBarDifferentlyComponent } from './color-each-bar-differently/color-each-bar-differently.component';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,8 @@ import { CustomBarWidthComponent } from './custom-bar-width/custom-bar-width.com
     SideBySideStackedBarComponent,
     SideBySideFullStackedBarComponent,
     AutoCalculatedBarWidthComponent,
-    CustomBarWidthComponent
+    CustomBarWidthComponent,
+    ColorEachBarDifferentlyComponent
   ],
   imports: [
     BrowserModule,
