@@ -1,0 +1,30 @@
+<dx-chart
+    id="chart"
+    title="Gross State Product within the Great Lakes Region"
+    [dataSource]="dataSource"
+    (onPointClick)="onPointClick($event)">
+    <!-- 你有多少个柱子，你就写多少个dxi-series -->
+    <dxi-series valueField="year2001" name="2001"></dxi-series>
+    <dxi-series valueField="year1998" name="1998"></dxi-series>
+    <!-- 设置common属性 -->
+    <dxo-common-series-settings
+        argumentField="state"
+        type="bar"
+        hoverMode="allArgumentPoints"
+        selectionMode="allArgumentPoints">
+        <dxo-label
+            [visible]="true"
+            [format]="{
+                type: 'fixedPoint',
+                precision: '0'
+            }">
+        </dxo-label>
+    </dxo-common-series-settings>
+    <!-- 设置legend的位置 -->
+    <dxo-legend
+        verticalAlignment="bottom"
+        horizontalAlignment="center">
+    </dxo-legend>
+    <!-- 设置是否export bar chart -->
+    <dxo-export [enabled]="true"></dxo-export>
+</dx-chart>
