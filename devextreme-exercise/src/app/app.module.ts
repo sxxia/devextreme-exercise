@@ -14,6 +14,7 @@ import { StandardBarComponent } from './standard-bar/standard-bar.component';
 import { StackedBarComponent } from './stacked-bar/stacked-bar.component';
 import { FullStackedBarComponent } from './full-stacked-bar/full-stacked-bar.component';
 import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-by-side-stacked-bar.component';
+import { SideBySideFullStackedBarComponent } from './side-by-side-full-stacked-bar/side-by-side-full-stacked-bar.component';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-b
     StandardBarComponent,
     StackedBarComponent,
     FullStackedBarComponent,
-    SideBySideStackedBarComponent
+    SideBySideStackedBarComponent,
+    SideBySideFullStackedBarComponent
   ],
   imports: [
     BrowserModule,
