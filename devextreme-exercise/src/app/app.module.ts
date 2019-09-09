@@ -16,6 +16,7 @@ import { FullStackedBarComponent } from './full-stacked-bar/full-stacked-bar.com
 import { SideBySideStackedBarComponent } from './side-by-side-stacked-bar/side-by-side-stacked-bar.component';
 import { SideBySideFullStackedBarComponent } from './side-by-side-full-stacked-bar/side-by-side-full-stacked-bar.component';
 import { AutoCalculatedBarWidthComponent } from './auto-calculated-bar-width/auto-calculated-bar-width.component';
+import { CustomBarWidthComponent } from './custom-bar-width/custom-bar-width.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { AutoCalculatedBarWidthComponent } from './auto-calculated-bar-width/aut
     FullStackedBarComponent,
     SideBySideStackedBarComponent,
     SideBySideFullStackedBarComponent,
-    AutoCalculatedBarWidthComponent
+    AutoCalculatedBarWidthComponent,
+    CustomBarWidthComponent
   ],
   imports: [
     BrowserModule,
