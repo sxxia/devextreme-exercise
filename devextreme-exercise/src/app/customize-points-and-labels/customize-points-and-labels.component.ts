@@ -1,0 +1,136 @@
+import { Component, OnInit } from '@angular/core';
+
+@Component({
+  selector: 'app-customize-points-and-labels',
+  templateUrl: './customize-points-and-labels.component.html',
+  styleUrls: ['./customize-points-and-labels.component.scss']
+})
+export class CustomizePointsAndLabelsComponent implements OnInit {
+  highAverage = 77;
+  lowAverage = 58;
+
+  dataSource = [{
+    day: '1',
+    value: 57
+}, {
+    day: '2',
+    value: 58
+}, {
+    day: '3',
+    value: 57
+}, {
+    day: '4',
+    value: 59
+}, {
+    day: '5',
+    value: 63
+}, {
+    day: '6',
+    value: 63
+}, {
+    day: '7',
+    value: 63
+}, {
+    day: '8',
+    value: 64
+}, {
+    day: '9',
+    value: 64
+}, {
+    day: '10',
+    value: 64
+}, {
+    day: '11',
+    value: 69
+}, {
+    day: '12',
+    value: 72
+}, {
+    day: '13',
+    value: 75
+}, {
+    day: '14',
+    value: 78
+}, {
+    day: '15',
+    value: 76
+}, {
+    day: '16',
+    value: 70
+}, {
+    day: '17',
+    value: 65
+}, {
+    day: '18',
+    value: 65
+}, {
+    day: '19',
+    value: 68
+}, {
+    day: '20',
+    value: 70
+}, {
+    day: '21',
+    value: 73
+}, {
+    day: '22',
+    value: 73
+}, {
+    day: '23',
+    value: 75
+}, {
+    day: '24',
+    value: 78
+}, {
+    day: '25',
+    value: 76
+}, {
+    day: '26',
+    value: 76
+}, {
+    day: '27',
+    value: 80
+}, {
+    day: '28',
+    value: 76
+}, {
+    day: '29',
+    value: 75
+}, {
+    day: '30',
+    value: 75
+}, {
+    day: '31',
+    value: 74
+}];
+
+  constructor() { }
+
+  ngOnInit() {
+  }
+
+  customizePoint = (arg: any) => {
+    if(arg.value > this.highAverage) {
+        return { color: "#ff7c7c", hoverStyle: { color: "#ff7c7c" } };
+    } else if(arg.value < this.lowAverage) {
+        return { color: "#8c8cff", hoverStyle: { color: "#8c8cff" } };
+    }
+}
+
+  customizeLabel = (arg: any) => {
+      if (arg.value > this.highAverage) {
+          return {
+              visible: true,
+              backgroundColor: "#ff7c7c",
+              customizeText: function (e: any) {
+                  return e.valueText + "&#176F";
+              }
+          };
+      }
+  }
+
+  customizeText = (arg: any) => {
+    return arg.valueText + "&#176F";
+  }
+
+}
