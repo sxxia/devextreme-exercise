@@ -19,6 +19,7 @@ import { AutoCalculatedBarWidthComponent } from './auto-calculated-bar-width/aut
 import { CustomBarWidthComponent } from './custom-bar-width/custom-bar-width.component';
 import { ColorEachBarDifferentlyComponent } from './color-each-bar-differently/color-each-bar-differently.component';
 import { CustomizePointsAndLabelsComponent } from './customize-points-and-labels/customize-points-and-labels.component';
+import { ScaleBreaksComponent } from './scale-breaks/scale-breaks.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +38,8 @@ import { CustomizePointsAndLabelsComponent } from './customize-points-and-labels
     AutoCalculatedBarWidthComponent,
     CustomBarWidthComponent,
     ColorEachBarDifferentlyComponent,
-    CustomizePointsAndLabelsComponent
+    CustomizePointsAndLabelsComponent,
+    ScaleBreaksComponent
   ],
   imports: [
     BrowserModule,
