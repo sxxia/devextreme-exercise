@@ -12,6 +12,7 @@ import { GridExportComponent } from './grid-export/grid-export.component';
 import { SideBySideBarChartComponent } from './side-by-side-bar-chart/side-by-side-bar-chart.component';
 import { StandardBarComponent } from './standard-bar/standard-bar.component';
 import { StackedBarComponent } from './stacked-bar/stacked-bar.component';
+import { FullStackedBarComponent } from './full-stacked-bar/full-stacked-bar.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { StackedBarComponent } from './stacked-bar/stacked-bar.component';
     GridExportComponent,
     SideBySideBarChartComponent,
     StandardBarComponent,
-    StackedBarComponent
+    StackedBarComponent,
+    FullStackedBarComponent
   ],
   imports: [
     BrowserModule,
