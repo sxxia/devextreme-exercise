@@ -1,11 +1,44 @@
 <dx-chart
-  id="chart"
+  id="csps-chart"
   [dataSource]="dataSource">
+  <dxo-title 
+    text="Prescriptivity"
+    horizontalAlignment="left">
+    <dxo-margin
+      bottom="30">
+    </dxo-margin>
+    <dxo-font
+      size="22"
+      weight="400">
+    </dxo-font>
+  </dxo-title>
   <dxi-series
-    argumentField="day"
-    valueField="oranges"
-    name="My oranges"
-    type="bar"
-    color="#ffaa66">
+    valueField="value"
+    name="value">
   </dxi-series>
+  <dxo-common-series-settings
+    argumentField="field"
+    name="field"
+    type="bar"
+    color="#8dc2fa"
+    [barPadding]="0.5">
+  </dxo-common-series-settings>
+  <dxo-argument-axis>
+    <dxo-label 
+      overlappingBehavior="rotate"
+      rotationAngle="320"
+      alignment="right">
+    </dxo-label>
+  </dxo-argument-axis>
+  <dxo-legend
+    verticalAlignment="bottom"
+    horizontalAlignment="center"
+    itemTextPosition="right">
+    <dxo-margin [left]="350"></dxo-margin>
+</dxo-legend>
+<dxi-value-axis position="left">
+  <dxo-title 
+    text="Prescriptivity Score">
+  </dxo-title>
+</dxi-value-axis>
 </dx-chart>
